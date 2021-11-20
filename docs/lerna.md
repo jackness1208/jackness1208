@@ -3,9 +3,9 @@
 ```bash
 |- packages
 |  |- pkg01
-|  |  `- package.json // pkg.name: @yy/pkg01
+|  |  `- package.json - pkg.name: @yy/pkg01
 |  `- pkg02
-|     `- package.json // pkg.name: @yy/pkg02
+|     `- package.json - pkg.name: @yy/pkg02
 |- lerna.json
 |- package.json
 ```
