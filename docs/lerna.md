@@ -31,3 +31,8 @@
   ]
 }
 ```
+## 常用指令
+#### 运行 pkg02 下 npm script prettier
+```bash
+lerna run prettier --scope @yy/pkg02
+```
