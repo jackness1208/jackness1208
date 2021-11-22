@@ -36,3 +36,8 @@
 ```bash
 lerna run prettier --scope @yy/pkg02
 ```
+
+#### 将 pkg02 作为依赖安装到 pkg01
+```bash
+lerna add @yy/pkg02 --scope @yy/pkg01
+```
