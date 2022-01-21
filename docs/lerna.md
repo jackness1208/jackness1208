@@ -41,3 +41,24 @@ lerna run prettier --scope @yy/pkg02
 ```bash
 lerna add @yy/pkg02 --scope @yy/pkg01
 ```
+
+#### 将汇总到跟目录下的 node_modules 分别在 packages 子组件下创建软连
+```bash
+lerna link
+```
+
+#### 提交代码配置
+配置各个子 组件下的 `package.json` 文件, 新增 `maintainers` 字段，补充体积者信息
+
+```json
+{
+  "maintainers": [
+    {
+      "name": "liudaojie",
+      "emial": "liudaojie@yy.com"
+    }
+  ]
+}
+```
+
+然后就可以通过 `lerna publish` 正常发布了
