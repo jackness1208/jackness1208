@@ -54,8 +54,8 @@ lerna link
 {
   "maintainers": [
     {
-      "name": "liudaojie",
-      "emial": "liudaojie@yy.com"
+      "name": "jackness1208",
+      "emial": "jackness1208@qq.com"
     }
   ]
 }
